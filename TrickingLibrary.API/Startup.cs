@@ -5,10 +5,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System.Threading.Channels;
-using TrickingLibrary.API.BusinessObjects;
 using TrickingLibrary.API.Services.BackgroundServices;
 using TrickingLibrary.API.Services.Implementations;
 using TrickingLibrary.API.Services.Interfaces;
+using TrickingLibrary.BusinessObjects;
 
 namespace TrickingLibrary.API
 {

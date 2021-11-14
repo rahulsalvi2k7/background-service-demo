@@ -8,4 +8,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TrickingLibrary.BusinessObjects\TrickingLibrary.BusinessObjects.csproj" />
+    <ProjectReference Include="..\TrickingLibrary.Services\TrickingLibrary.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
